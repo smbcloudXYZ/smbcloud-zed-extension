@@ -3,11 +3,11 @@ use zed_extension_api::{
     SlashCommandOutputSection, Worktree,
 };
 
-struct SlashCommandsExampleExtension;
+struct SmbCloudZedExtension;
 
-impl zed::Extension for SlashCommandsExampleExtension {
+impl zed::Extension for SmbCloudZedExtension {
     fn new() -> Self {
-        SlashCommandsExampleExtension
+        SmbCloudZedExtension
     }
 
     fn complete_slash_command_argument(
@@ -87,4 +87,4 @@ impl zed::Extension for SlashCommandsExampleExtension {
     }
 }
 
-zed::register_extension!(SlashCommandsExampleExtension);
+zed::register_extension!(SmbCloudZedExtension);
