@@ -1,11 +1,11 @@
 [package]
-name = "slash_commands_example"
+name = "smbcloud-zed-extension"
 version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0"
 
 [lib]
-path = "src/slash_commands_example.rs"
+path = "src/smbcloud_zed_extension.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
