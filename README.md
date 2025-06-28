@@ -1,1 +1,3 @@
-# Zed Slash Commands Example Extension
+# smbCloud Zed Extension
+
+Easy deployment with smbCloud Zed Extension.
