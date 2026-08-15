@@ -1,8 +1,8 @@
 id = "smbcloud"
 name = "smbCloud"
-version = "0.1.0"
+version = "1.0.0"
 schema_version = 1
-authors = ["setoelkahfi <1797197+setoelkahfi@users.noreply.github.com>"]
+authors = ["Seto Elkahfi <1797197+setoelkahfi@users.noreply.github.com>"]
 description = "Email infrastructure and authentication for developers: domains, inbox routes, auth apps, deploys."
 repository = "https://github.com/smbcloudXYZ/smbcloud-zed-extension"
 

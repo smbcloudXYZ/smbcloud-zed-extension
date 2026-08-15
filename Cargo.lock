@@ -763,7 +763,7 @@ dependencies = [
 
 [[package]]
 name = "zed_smbcloud"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "serde",
  "zed_extension_api",
