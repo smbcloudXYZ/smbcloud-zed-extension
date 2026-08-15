@@ -1,0 +1,8 @@
+{
+  /// Which tool profile to expose: "cloud" or "automation".
+  "scope": "cloud",
+  /// Which smbCloud API environment to talk to: "production" or "dev".
+  "environment": "production",
+  /// Mail app API key (smb_mail_...), required only by the mail_send tool.
+  "mail_api_key": ""
+}
