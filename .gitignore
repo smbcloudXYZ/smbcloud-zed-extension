@@ -1,3 +1,4 @@
-Cargo.lock
 target/
+grammars/
 *.wasm
+.DS_Store

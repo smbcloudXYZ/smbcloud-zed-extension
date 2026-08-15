@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "scope": {
+      "type": "string",
+      "enum": ["cloud", "automation"],
+      "default": "cloud",
+      "description": "Which tool profile to expose. 'cloud' serves smbCloud resources (mail, auth, projects, deploys); 'automation' serves mobile and TV device tools."
+    },
+    "environment": {
+      "type": "string",
+      "enum": ["production", "dev"],
+      "default": "production",
+      "description": "Which smbCloud API environment to talk to."
+    },
+    "mail_api_key": {
+      "type": "string",
+      "description": "Mail app API key (smb_mail_...). Only the mail_send tool needs it; everything else uses the session from `smb login`."
+    }
+  }
+}
