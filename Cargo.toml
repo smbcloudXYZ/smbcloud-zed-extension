@@ -1,12 +1,18 @@
 [package]
-name = "smbcloud-zed-extension"
+name = "zed_smbcloud"
 version = "0.1.0"
 edition = "2021"
+publish = false
 license = "Apache-2.0"
 
+[lints.clippy]
+dbg_macro = "deny"
+todo = "deny"
+
 [lib]
-path = "src/smbcloud_zed_extension.rs"
+path = "src/lib.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-zed_extension_api = "0.1.0"
+serde = { version = "1.0", features = ["derive"] }
+zed_extension_api = "0.7.0"

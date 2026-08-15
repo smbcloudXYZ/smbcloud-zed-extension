@@ -1,15 +1,10 @@
-id = "smbcloud-zed-extension"
-name = "smbCloud Zed Extension"
-description = "Easy deployment with smbCloud Zed Extension."
+id = "smbcloud"
+name = "smbCloud"
 version = "0.1.0"
 schema_version = 1
-authors = ["smbCloud <smbcloud@setoelkahfi.se>"]
+authors = ["setoelkahfi <1797197+setoelkahfi@users.noreply.github.com>"]
+description = "Email infrastructure and authentication for developers: domains, inbox routes, auth apps, deploys."
 repository = "https://github.com/smbcloudXYZ/smbcloud-zed-extension"
 
-[slash_commands.echo]
-description = "echoes the provided input"
-requires_argument = true
-
-[slash_commands.pick-one]
-description = "pick one of three options"
-requires_argument = true
+[context_servers.smbcloud]
+name = "smbCloud"
